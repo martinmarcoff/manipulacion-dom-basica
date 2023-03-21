@@ -1,0 +1,12 @@
+Boolean(false)//false
+Boolean(undefined)//false
+Boolean(null)//false
+Boolean(NaN)//false
+Boolean(0)//false
+Boolean("")//false
+Boolean("a")//true
+Boolean(1)//true
+Boolean([])//true
+Boolean({})//true
+Boolean(true)//true
+Boolean(function(){})//true

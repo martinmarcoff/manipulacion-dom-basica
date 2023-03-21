@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulación del DOM básica - Curso Práctico de JavaScript</title>
+  </head>
+  <body>
+    <h1>Manipulación del DOM básica</h1>
+
+    <input
+      placeholder="escribe algo aquí"
+      id="calculo"
+      onChange="console.log('cambió el input')"
+    />
+    <input placeholder="escribe algo aquí" id="calculo2" onChange="" />
+    <!-- //onClick, invocamos la función que está en el file JS -->
+    <button id="btn-calculo" onClick="buttonOnClicked()">Calcular</button>
+
+    <p type="text" id="parr" />
+
+    <script src="./script2.js"></script>
+  </body>
+</html>
